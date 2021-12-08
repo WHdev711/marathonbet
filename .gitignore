@@ -1,0 +1,7 @@
+
+*.pyc
+*.pyc
+__pycache__/dbi.cpython-38.pyc
+__pycache__/pipelines.cpython-38.pyc
+__pycache__/settings.cpython-38.pyc
+spiders/__pycache__/competitions.cpython-38.pyc

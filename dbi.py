@@ -4,11 +4,13 @@ import socket
 
 
 def get_db_connection():
-    if socket.gethostname().find('Domenicos') >= 0:
+    # if socket.gethostname().find('Domenicos') >= 0:
+    if socket.gethostname().find('DESKTOP-1JBTK20') >= 0:
         connection = mysql.connector.connect(
             host="127.0.0.1",
             user="root",
-            passwd="Nuvolari100",
+            # passwd="Nuvolari100",
+            passwd='',
             auth_plugin='mysql_native_password',
             database="ninjabet_dev"
         )
